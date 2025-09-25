@@ -115,12 +115,17 @@ git push origin main
 
 ### Минимальная версия:
 ```
-Продолжаем UberBanking. Читай PROGRESS.md и ROADMAP.md. Начинай работу.
+Продолжаем UberBanking.
+Путь: /Users/macbookpro/Coding/ubb
+Читай PROGRESS.md и ROADMAP.md.
+Начинай работу.
 ```
 
 ### Полная версия:
 ```
 Продолжаем разработку UberBanking.
+
+Путь проекта: /Users/macbookpro/Coding/ubb
 
 Текущий статус: [прочитай PROGRESS.md]
 Текущая задача: [прочитай ROADMAP.md - Session X]

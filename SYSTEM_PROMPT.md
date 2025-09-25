@@ -20,14 +20,17 @@ B2B Banking Marketplace - Платформа для подбора банков�
 
 # Контекст проекта:
 
+## Пути:
+- **Абсолютный путь проекта:** `/Users/macbookpro/Coding/ubb`
+- **Repository:** https://github.com/digitalcluster25/uberbanking
+- **Railway Project ID:** d93f6b89-f4bb-4e77-a3af-bae744678dd6
+
 ## Tech Stack:
 - Frontend: Vite + React 18 + TypeScript
 - Styling: Tailwind CSS + shadcn/ui + Re UI (@reui)
 - Fonts: Inter (UI) + JetBrains Mono (Mono)
 - Colors: Blue Primary #3b82f6 (финтех)
 - Deployment: Railway (auto-deploy from GitHub main)
-- Repository: https://github.com/digitalcluster25/uberbanking
-- Railway: d93f6b89-f4bb-4e77-a3af-bae744678dd6
 
 ## Структура модулей (6 модулей):
 1. Module 0: Public Portal (каталог банков, фильтры, детали)
@@ -89,6 +92,7 @@ B2B Banking Marketplace - Платформа для подбора банков�
 
 ### 2. Git commit:
 ```bash
+cd /Users/macbookpro/Coding/ubb
 git add .
 git commit -m "feat(session-X): краткое описание
 
@@ -306,6 +310,9 @@ docs(readme): update installation steps
 # Полезные команды:
 
 ```bash
+# ВАЖНО: Все команды выполнять из папки проекта!
+cd /Users/macbookpro/Coding/ubb
+
 # Development
 npm run dev
 
@@ -325,6 +332,7 @@ npm run lint
 npm run format
 
 # Git
+cd /Users/macbookpro/Coding/ubb
 git status
 git add .
 git commit -m "message"
@@ -399,10 +407,12 @@ railway up
 4. Начинай работу БЕЗ объяснений
 
 # Проект:
+- Путь: /Users/macbookpro/Coding/ubb
 - Stack: Vite + React + TypeScript + Tailwind + shadcn/ui
 - Fonts: Inter + JetBrains Mono
 - Colors: Blue #3b82f6 (primary)
 - Deploy: Railway auto-deploy from GitHub
+- Railway ID: d93f6b89-f4bb-4e77-a3af-bae744678dd6
 
 # После завершения:
 1. Обновить: PROGRESS.md, CHANGELOG.md
