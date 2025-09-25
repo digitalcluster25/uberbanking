@@ -27,6 +27,9 @@
 
 ### Phase 0: Planning & Documentation ✅
 ### Phase 1: Foundation - Session 1 ✅
+- [x] Session 1: Components Setup & Design System
+- [x] PROJECT_RULES.md - Добавлена секция о CI/CD возможностях Claude
+- [x] SYSTEM_PROMPT.md - Обновлен с CI/CD информацией
 - [x] BRD анализ и структурирование
 - [x] Архитектура проекта
 - [x] Исследование компонентов (Re UI, shadcn/ui)
