@@ -213,10 +213,12 @@ uberbanking/
 ## 📚 Documentation
 
 ### Core Documents
+- **[SYSTEM_RULES.md](SYSTEM_RULES.md)** - 🔐 **MAIN FILE** - Complete system rules (how to use all docs)
 - **[PROJECT_RULES.md](PROJECT_RULES.md)** - Development rules and workflow
 - **[ROADMAP.md](ROADMAP.md)** - Development plan with sessions
 - **[PROGRESS.md](PROGRESS.md)** - Current progress tracker
 - **[CHANGELOG.md](CHANGELOG.md)** - Change history
+- **[QUICKSTART.md](QUICKSTART.md)** - Quick start for new sessions
 
 ### Design & Architecture
 - **[docs/design-system.md](docs/design-system.md)** - Complete design system

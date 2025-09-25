@@ -98,9 +98,14 @@ git push origin main
 
 ## 🔗 Важные ссылки
 
+### 📚 Документация:
+- **SYSTEM_RULES.md** - 🔐 Полные системные правила (ГЛАВНЫЙ ФАЙЛ)
 - **PROGRESS.md** - Текущий прогресс
 - **ROADMAP.md** - План с задачами
-- **PROJECT_RULES.md** - Все правила проекта
+- **PROJECT_RULES.md** - Правила workflow и git
+- **QUICKSTART.md** - Этот файл
+
+### 🔗 Инфраструктура:
 - **GitHub:** https://github.com/digitalcluster25/uberbanking
 - **Railway:** https://railway.app/project/d93f6b89-f4bb-4e77-a3af-bae744678dd6
 
