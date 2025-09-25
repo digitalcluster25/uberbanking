@@ -116,7 +116,7 @@ export default function BuildProgress() {
       {/* Steps */}
       <div className="max-w-6xl mx-auto px-4 py-8">
         <div className="space-y-6">
-          {steps.map((step, index) => (
+          {steps.map((step) => (
             <div
               key={step.id}
               className="bg-card border border-border rounded-lg p-6 transition-all hover:shadow-md"
