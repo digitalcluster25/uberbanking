@@ -10,6 +10,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Fixed
+- SYSTEM_PROMPT.md - Полностью пересоздан с учетом реального состояния проекта
+- SYSTEM_PROMPT.md - Добавлено что проект УЖЕ инициализирован
+- SYSTEM_PROMPT.md - Четкие инструкции по использованию MCP
+- SYSTEM_PROMPT.md - Добавлен путь проекта во все команды
 - ROADMAP.md - Исправлен Session 1: проект УЖЕ инициализирован
 - ROADMAP.md - Session 1 теперь про установку компонентов через MCP, а не инициализацию
 - ROADMAP.md - Исправлен Session 2: убрано дублирование
