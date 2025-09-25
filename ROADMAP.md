@@ -31,55 +31,83 @@
 
 ## 📅 PHASE 1: Foundation (Сессии 1-3)
 
-### 🔵 Session 1: Project Initialization
-**Цель:** Рабочий проект с базовой настройкой
+### 🔵 Session 1: Components Setup & Design System
+**Цель:** Установить компоненты через MCP и настроить дизайн-систему
+
+**Важно:** Проект уже инициализирован! Vite, React, TypeScript, Tailwind - всё готово!
 
 **Задачи:**
-- [ ] Инициализация Vite + React + TypeScript
-- [ ] Настройка Tailwind CSS (custom config)
-- [ ] Установка shadcn/ui
-- [ ] Импорт шрифтов (Inter + JetBrains Mono)
-- [ ] Настройка globals.css с CSS переменными
-- [ ] Базовые компоненты (Button, Card, Badge)
-- [ ] Настройка Dark Mode
-- [ ] Создание Container, Grid, Section компонентов
+- [ ] Проверить что проект запускается (npm run dev)
+- [ ] Обновить globals.css с нашими CSS переменными из design-system.md
+- [ ] Импортировать шрифты (Inter + JetBrains Mono) в index.html
+- [ ] Установить базовые компоненты через MCP:
+  ```bash
+  npx shadcn@latest add button
+  npx shadcn@latest add card
+  npx shadcn@latest add badge
+  npx shadcn@latest add input
+  npx shadcn@latest add label
+  ```
+- [ ] Создать layout компоненты (Container, Grid, Section)
+- [ ] Настроить ThemeProvider и Dark Mode toggle
+- [ ] Создать тестовую страницу с примерами компонентов
+- [ ] Проверить что всё работает и responsive
 
 **Файлы:**
 ```
 src/
-├── components/ui/        # shadcn components
-├── lib/utils.ts
-├── App.tsx
-├── main.tsx
-├── index.css
-tailwind.config.ts
-package.json
+├── components/
+│   ├── ui/              # shadcn components (уже есть папка)
+│   ├── layout/          # Layout components (уже есть папка)
+│   │   ├── Container.tsx
+│   │   ├── Grid.tsx
+│   │   └── Section.tsx
+│   └── theme/           # Theme components (уже есть папка)
+│       └── ThemeToggle.tsx
+├── lib/
+│   └── utils.ts         # cn helper
+├── index.css            # Обновить с переменными
+index.html               # Добавить шрифты
 ```
 
 **Результат:**
-- ✅ Проект собирается без ошибок
+- ✅ Все базовые компоненты установлены через MCP
+- ✅ Design system применен (CSS переменные)
+- ✅ Шрифты подключены
+- ✅ Layout компоненты созданы
 - ✅ Dark mode работает
-- ✅ Базовые компоненты рендерятся
+- ✅ Тестовая страница показывает все компоненты
 - ✅ Live на Railway
 
 **Git:**
 ```bash
-git commit -m "feat(session-1): initialize project with tailwind and shadcn/ui"
+git commit -m "feat(session-1): setup components via MCP and apply design system"
 ```
 
 ---
 
-### 🔵 Session 2: Design System Implementation
-**Цель:** Полная имплементация дизайн-системы
+### 🔵 Session 2: Re UI Components & Advanced Styling
+**Цель:** Установить Re UI компоненты и дополнительные UI элементы
 
 **Задачи:**
-- [ ] Создать все UI компоненты из Re UI (@reui)
-- [ ] Установить базовые компоненты (@reui/badge, @reui/button, @reui/card)
-- [ ] Настроить Typography components
-- [ ] Создать Status Badge компоненты
-- [ ] Имплементировать responsive utilities
-- [ ] Создать theme provider
-- [ ] Тестовая страница с примерами всех компонентов
+- [ ] Установить Re UI компоненты через MCP:
+  ```bash
+  npx shadcn@latest add @reui/statistic-card-1
+  npx shadcn@latest add @reui/badge
+  npx shadcn@latest add @reui/button
+  npx shadcn@latest add @reui/card
+  ```
+- [ ] Установить дополнительные shadcn компоненты:
+  ```bash
+  npx shadcn@latest add dialog
+  npx shadcn@latest add dropdown-menu
+  npx shadcn@latest add sheet
+  npx shadcn@latest add tabs
+  npx shadcn@latest add table
+  ```
+- [ ] Создать Status Badge компоненты (для Approved, Pending, Rejected)
+- [ ] Создать utility компоненты (Loading, Empty State)
+- [ ] Обновить тестовую страницу с новыми компонентами
 
 **Файлы:**
 ```

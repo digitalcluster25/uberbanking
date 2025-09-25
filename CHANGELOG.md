@@ -9,6 +9,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+- ROADMAP.md - Исправлен Session 1: проект УЖЕ инициализирован
+- ROADMAP.md - Session 1 теперь про установку компонентов через MCP, а не инициализацию
+- ROADMAP.md - Исправлен Session 2: убрано дублирование
+- PROGRESS.md - Обновлены задачи Session 1
+
+### Context
+Проект УЖЕ существует с:
+- Vite + React 19 ✅
+- TypeScript ✅
+- Tailwind CSS 4.1.13 ✅
+- Структура папок ✅
+- MCP настроен ✅
+
 ### Planned
 - Session 1: Project Initialization
 - Session 2: Design System Implementation
