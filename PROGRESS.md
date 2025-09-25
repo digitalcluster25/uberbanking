@@ -42,6 +42,7 @@
 - [x] Roadmap с сессиями создан
 - [x] Progress tracker создан
 - [x] System Prompt создан
+- [x] System Prompt исправлен и пересоздан с учетом реального состояния проекта ✅
 - [x] GitHub репозиторий настроен
 - [x] Railway проект связан с GitHub
 
