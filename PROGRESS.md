@@ -34,6 +34,7 @@
 - [x] Project Rules создан
 - [x] Roadmap с сессиями создан
 - [x] Progress tracker создан
+- [x] System Prompt создан
 - [x] GitHub репозиторий настроен
 - [x] Railway проект связан с GitHub
 
@@ -49,6 +50,10 @@
 - [x] `ROADMAP.md` - План разработки
 - [x] `PROGRESS.md` - Этот файл
 - [x] `CHANGELOG.md` - История изменений
+- [x] `SYSTEM_PROMPT.md` - Системный промпт для новых чатов
+- [x] `QUICKSTART.md` - Быстрый старт
+- [x] `PHASE-0-SUMMARY.md` - Итоги планирования
+- [x] `README.md` - Обзор проекта
 
 ---
 
