@@ -1,16 +1,16 @@
 # Dependencies
 node_modules/
-/.pnp
+.pnp
 .pnp.js
 
 # Testing
-/coverage
+coverage/
 
 # Production
-/build
-/dist
+dist/
+build/
 
-# Misc
+# Development
 .DS_Store
 .env
 .env.local
@@ -35,6 +35,10 @@ lerna-debug.log*
 *.sln
 *.sw?
 
-# OS
+# Railway
+.railway/
+
+# Misc
+*.log
 .DS_Store
 Thumbs.db
